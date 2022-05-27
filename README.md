@@ -1,11 +1,11 @@
-# azure-terraform-[module_name]
+# azure-terraform-key-vault-secret
 
-Create a simple [module_full_name] in Azure
+Create one or multible Key Vault Secrets to an existing Key Vault in Azure.
 
 ## Usage in Terraform 0.13
 ```hcl
 module "example" {
-  source  = "github.com/N3tLiX/modules//[module_folder]"
+  source  = "github.com/N3tLiX/modules//kvsecrets"
 }
 ```
 
